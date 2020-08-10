@@ -2,6 +2,9 @@
 #
 # Toggles a hubitat virtual switch based on microsnitch's log
 #
+# To make the script automatically run, edit the local.hubitate.OnVideoCallSwitch.plist 
+# and move it to ~/Library/LaunchAgents
+# and install it with launchctl
 
 exec > /tmp/vlog 2>&1
 
