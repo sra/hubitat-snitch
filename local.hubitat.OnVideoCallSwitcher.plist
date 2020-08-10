@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>ACCESS_TOKEN</key>
+		<string>TOKEN FROM YOUR HUBITAT MAKERAPI APPLICATION</string>
+		<key>HOME</key>
+		<string>/Users/YOUR DIRECTORY</string>
+		<key>PATH</key>
+		<string>/bin:/usr/bin:/usr/local/bin</string>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>local.job</string>
+	<key>Program</key>
+	<string>/Users/YOUR DIRECTORY/bin/hubitat-switch.sh</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>WorkingDirectory</key>
+	<string>/Users/YOUR DIRECTORY</string>
+</dict>
+</plist>
